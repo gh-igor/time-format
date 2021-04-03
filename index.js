@@ -1,3 +1,3 @@
-export default function timeFormat(time) {
-  return new Date(time).toLocaleString();
+export default function timeFormat(time, locale) {
+  return new Date(time).toLocaleString(locale);
 }
