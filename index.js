@@ -4,4 +4,5 @@ export default function timeFormat(time, locale) {
 
 export function echo(...args) {
   console.log(args);
+  console.log("__debug");
 }
